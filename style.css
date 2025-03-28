@@ -88,6 +88,11 @@ body {
   color: var(--Grey-950);
 }
 
+.btn-hover {
+  background-color: var(--White);
+  color: var(--Grey-950);
+}
+
 .submit-btn {
   background-color: var(--Primary-Orange-500);
   color: var(--Grey-950);

@@ -1,5 +1,5 @@
 "use strict";
-const btns = document.querySelectorAll(".btn-hover");
+const btns = document.querySelectorAll(".btn");
 const submit_btn = document.querySelector(".submit-btn");
 const rating_text = document.querySelector(".rating-select");
 const section_hidden = document.querySelector("section");
@@ -9,9 +9,10 @@ let rating;
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function () {
     rating = btns[i].value;
-    btns[i].style.backgroundColor = "hsl(0, 100%, 100%)";
-    btns[i].style.color = "hsl(216, 12%, 8%)";
-    console.log(rating);
+    // btns[i].style.backgroundColor = "hsl(0, 100%, 100%)";
+    // btns[i].style.color = "hsl(216, 12%, 8%)";
+    btns[i].classList.toggle("btn-hover");
+    // console.log(rating);
   });
 }
 
