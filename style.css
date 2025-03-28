@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  background-color: var(--Grey-950);
   font-family: "Overpass", sans-serif;
   display: flex;
   justify-content: center;
